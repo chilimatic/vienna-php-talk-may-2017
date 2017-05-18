@@ -1,0 +1,36 @@
+{
+  "name" : "chilimatic/vienna-php-talk",
+  "description" : "example codes",
+  "version": "0.1.0",
+  "license" : "MIT",
+  "repositories": [
+    {
+      "type": "git",
+      "url" : "git@github.com:chilimatic/chilimatic-framework.git"
+    },
+    {
+      "type": "git",
+      "url" : "git@github.com:chilimatic/validator-talk-vienna-php.git"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "4.5.*"
+  },
+  "require": {
+    "php": ">=7",
+    "chilimatic/parser-component": "2.*",
+    "chilimatic/di-component": "2.*",
+    "chilimatic/traits-component": "2.*",
+    "chilimatic/cache-component": "2.*",
+    "chilimatic/datastructure-component": "2.*",
+    "chilimatic/interpreter-component": "2.*",
+    "chilimatic/validator-component": "2.*",
+    "chilimatic/framework": "dev-feature/compoment-splitting",
+    "chilimatic/view-component": "2.0.*"
+  },
+  "config": {
+    "bin-dir": "bin/",
+    "vendor-dir": "vendor"
+  },
+  "minimum-stability" : "dev"
+}
